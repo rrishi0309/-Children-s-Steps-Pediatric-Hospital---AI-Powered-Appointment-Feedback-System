@@ -1,0 +1,296 @@
+{
+  "appSaveId": 392683096,
+  "pathMaps": {
+    "/queries/insert_appointment.query.sql": {
+      "keyPath": [
+        "plugins",
+        "insert_appointment",
+        "template",
+        "query"
+      ],
+      "filePath": "/queries/insert_appointment.query.sql"
+    },
+    "/queries/insert_appointment.transformer.js": {
+      "keyPath": [
+        "plugins",
+        "insert_appointment",
+        "template",
+        "transformer"
+      ],
+      "filePath": "/queries/insert_appointment.transformer.js"
+    },
+    "/queries/select_feedback_all.query.sql": {
+      "keyPath": [
+        "plugins",
+        "select_feedback_all",
+        "template",
+        "query"
+      ],
+      "filePath": "/queries/select_feedback_all.query.sql"
+    },
+    "/queries/select_feedback_all.transformer.js": {
+      "keyPath": [
+        "plugins",
+        "select_feedback_all",
+        "template",
+        "transformer"
+      ],
+      "filePath": "/queries/select_feedback_all.transformer.js"
+    },
+    "/queries/select_feedback_stars.query.sql": {
+      "keyPath": [
+        "plugins",
+        "select_feedback_stars",
+        "template",
+        "query"
+      ],
+      "filePath": "/queries/select_feedback_stars.query.sql"
+    },
+    "/queries/select_feedback_stars.transformer.js": {
+      "keyPath": [
+        "plugins",
+        "select_feedback_stars",
+        "template",
+        "transformer"
+      ],
+      "filePath": "/queries/select_feedback_stars.transformer.js"
+    },
+    "/queries/chat1_query1.query.query": {
+      "keyPath": [
+        "plugins",
+        "chat1_query1",
+        "template",
+        "query"
+      ],
+      "filePath": "/queries/chat1_query1.query.query"
+    },
+    "/queries/chat1_query1.transformer.js": {
+      "keyPath": [
+        "plugins",
+        "chat1_query1",
+        "template",
+        "transformer"
+      ],
+      "filePath": "/queries/chat1_query1.transformer.js"
+    },
+    "/queries/query1.query.sql": {
+      "keyPath": [
+        "plugins",
+        "query1",
+        "template",
+        "query"
+      ],
+      "filePath": "/queries/query1.query.sql"
+    },
+    "/queries/query1.transformer.js": {
+      "keyPath": [
+        "plugins",
+        "query1",
+        "template",
+        "transformer"
+      ],
+      "filePath": "/queries/query1.transformer.js"
+    },
+    "/queries/select_patient_history.query.sql": {
+      "keyPath": [
+        "plugins",
+        "select_patient_history",
+        "template",
+        "query"
+      ],
+      "filePath": "/queries/select_patient_history.query.sql"
+    },
+    "/queries/select_patient_history.transformer.js": {
+      "keyPath": [
+        "plugins",
+        "select_patient_history",
+        "template",
+        "transformer"
+      ],
+      "filePath": "/queries/select_patient_history.transformer.js"
+    },
+    "/queries/chat2_query1.query.query": {
+      "keyPath": [
+        "plugins",
+        "chat2_query1",
+        "template",
+        "query"
+      ],
+      "filePath": "/queries/chat2_query1.query.query"
+    },
+    "/queries/chat2_query1.transformer.js": {
+      "keyPath": [
+        "plugins",
+        "chat2_query1",
+        "template",
+        "transformer"
+      ],
+      "filePath": "/queries/chat2_query1.transformer.js"
+    },
+    "/queries/query2.query.js": {
+      "keyPath": [
+        "plugins",
+        "query2",
+        "template",
+        "query"
+      ],
+      "filePath": "/queries/query2.query.js"
+    },
+    "/queries/query2.transformer.js": {
+      "keyPath": [
+        "plugins",
+        "query2",
+        "template",
+        "transformer"
+      ],
+      "filePath": "/queries/query2.transformer.js"
+    },
+    "/queries/select_patient_history_admin.query.sql": {
+      "keyPath": [
+        "plugins",
+        "select_patient_history_admin",
+        "template",
+        "query"
+      ],
+      "filePath": "/queries/select_patient_history_admin.query.sql"
+    },
+    "/queries/select_patient_history_admin.transformer.js": {
+      "keyPath": [
+        "plugins",
+        "select_patient_history_admin",
+        "template",
+        "transformer"
+      ],
+      "filePath": "/queries/select_patient_history_admin.transformer.js"
+    },
+    "/queries/chat3_query1.query.query": {
+      "keyPath": [
+        "plugins",
+        "chat3_query1",
+        "template",
+        "query"
+      ],
+      "filePath": "/queries/chat3_query1.query.query"
+    },
+    "/queries/chat3_query1.transformer.js": {
+      "keyPath": [
+        "plugins",
+        "chat3_query1",
+        "template",
+        "transformer"
+      ],
+      "filePath": "/queries/chat3_query1.transformer.js"
+    }
+  },
+  "virtualFiles": {
+    "/queries/insert_appointment.query.sql": {
+      "path": "/queries/insert_appointment.query.sql",
+      "contents": "INSERT INTO appointment_bookings (\n  patient_name,\n  service_type,\n  location,\n  appointment_time,\n  message\n)\nVALUES (\n  {{ textInput4.value }},\n  {{ select2.value }},\n  {{ select3.value }},\n  {{ dateTime1.value }},\n  {{ textArea2.value }}\n);\n",
+      "dirPath": "/queries"
+    },
+    "/queries": {
+      "dirPath": "/",
+      "path": "/queries",
+      "isDirectory": true
+    },
+    "/queries/insert_appointment.transformer.js": {
+      "path": "/queries/insert_appointment.transformer.js",
+      "contents": "return data",
+      "dirPath": "/queries"
+    },
+    "/queries/select_feedback_all.query.sql": {
+      "path": "/queries/select_feedback_all.query.sql",
+      "contents": "SELECT * FROM feedback_neuralnexus;",
+      "dirPath": "/queries"
+    },
+    "/queries/select_feedback_all.transformer.js": {
+      "path": "/queries/select_feedback_all.transformer.js",
+      "contents": "return data",
+      "dirPath": "/queries"
+    },
+    "/queries/select_feedback_stars.query.sql": {
+      "path": "/queries/select_feedback_stars.query.sql",
+      "contents": "\nSELECT feedback_rating, COUNT(*) AS total\nFROM feedback_neuralnexus\nGROUP BY feedback_rating\nORDER BY feedback_rating DESC;",
+      "dirPath": "/queries"
+    },
+    "/queries/select_feedback_stars.transformer.js": {
+      "path": "/queries/select_feedback_stars.transformer.js",
+      "contents": "return data",
+      "dirPath": "/queries"
+    },
+    "/queries/chat1_query1.query.query": {
+      "path": "/queries/chat1_query1.query.query",
+      "contents": "",
+      "dirPath": "/queries"
+    },
+    "/queries/chat1_query1.transformer.js": {
+      "path": "/queries/chat1_query1.transformer.js",
+      "contents": "return data",
+      "dirPath": "/queries"
+    },
+    "/queries/query1.query.sql": {
+      "path": "/queries/query1.query.sql",
+      "contents": "ALTER TABLE feedback_neuralnexus\nDROP COLUMN id;\n\nALTER TABLE feedback_neuralnexus\nADD COLUMN id SERIAL PRIMARY KEY;\n",
+      "dirPath": "/queries"
+    },
+    "/queries/query1.transformer.js": {
+      "path": "/queries/query1.transformer.js",
+      "contents": "return data",
+      "dirPath": "/queries"
+    },
+    "/queries/select_patient_history.query.sql": {
+      "path": "/queries/select_patient_history.query.sql",
+      "contents": "SELECT \n  patient_name,\n  service_type,\n  location,\n  appointment_time,\n  message,\n  submitted_at\nFROM \n  appointment_bookings\n\nORDER BY \n  appointment_time DESC;\n",
+      "dirPath": "/queries"
+    },
+    "/queries/select_patient_history.transformer.js": {
+      "path": "/queries/select_patient_history.transformer.js",
+      "contents": "return data",
+      "dirPath": "/queries"
+    },
+    "/queries/chat2_query1.query.query": {
+      "path": "/queries/chat2_query1.query.query",
+      "contents": "",
+      "dirPath": "/queries"
+    },
+    "/queries/chat2_query1.transformer.js": {
+      "path": "/queries/chat2_query1.transformer.js",
+      "contents": "return data",
+      "dirPath": "/queries"
+    },
+    "/queries/query2.query.js": {
+      "path": "/queries/query2.query.js",
+      "contents": "const message = chat2.messageHistory\n  ?.slice()\n  .reverse()\n  .find(m => m.role === \"assistant\" && m.content.includes(\"Confirming Appointment\"))?.content;\n\nif (!message) {\n  utils.showNotification({\n    title: \"❌ No Confirmation Found\",\n    description: \"Could not find a structured confirmation message from the assistant.\",\n    notificationType: \"error\"\n  });\n} else {\n  const clean = message.replace(/\\\\n/g, \"\\n\").replace(/\\*\\*/g, \"\");\n\n  const name = clean.match(/name:\\s*(.*)/i)?.[1]?.trim();\n  const service = clean.match(/service:\\s*(.*)/i)?.[1]?.trim();\n  const locationRaw = clean.match(/location:\\s*(.*)/i)?.[1]?.trim();\n  const timeRaw = clean.match(/time:\\s*(.*)/i)?.[1]?.trim();\n  const notes = clean.match(/notes:\\s*(.*)/i)?.[1]?.trim();\n\n  const locationMap = {\n    \"salt lake city\": \"355 W 400 S, Salt Lake City, UT 84101\",\n    \"provo\": \"135 E 200 N, Provo, UT 84606\",\n    \"st. george\": \"188 E 300 S, St. George, UT 84770\"\n  };\n\n  const matchedKey = Object.keys(locationMap).find(k =>\n    locationRaw?.toLowerCase().includes(k)\n  );\n  const location = matchedKey ? locationMap[matchedKey] : locationRaw;\n\n  if (!name || !service || !location || !timeRaw) {\n    utils.showNotification({\n      title: \"⚠️ Missing Data\",\n      description: \"Some fields couldn't be extracted. Please check the AI message format.\",\n      notificationType: \"error\"\n    });\n    return;\n  }\n\n  // Normalize and parse the time string\n  const cleanTime = timeRaw.replace(\" at \", \" \");\n  const parsedTime = new Date(cleanTime);\n\n  if (isNaN(parsedTime.getTime())) {\n    utils.showNotification({\n      title: \"⚠️ Invalid Time Format\",\n      description: `Could not convert \"${timeRaw}\" to a valid date.`,\n      notificationType: \"error\"\n    });\n    return;\n  }\n\n  // Set form fields\n  textInput4.setValue(name);\n  select2.setValue(service);\n  select3.setValue(location);\n  dateTime1.setValue(parsedTime);\n  textArea2.setValue(notes || \"\");\n\n  // Trigger DB insert\n  insert_appointment.trigger({\n    onSuccess: () => {\n      utils.showNotification({\n        title: \"✅ Appointment Confirmed\",\n        description: \"Your appointment has been successfully saved.\",\n        notificationType: \"success\"\n      });\n    },\n    onFailure: () => {\n      utils.showNotification({\n        title: \"❌ Insert Failed\",\n        description: \"Something went wrong saving to the database.\",\n        notificationType: \"error\"\n      });\n    }\n  });\n}\n",
+      "dirPath": "/queries"
+    },
+    "/queries/query2.transformer.js": {
+      "path": "/queries/query2.transformer.js",
+      "contents": "return data",
+      "dirPath": "/queries"
+    },
+    "/queries/select_patient_history_admin.query.sql": {
+      "path": "/queries/select_patient_history_admin.query.sql",
+      "contents": "SELECT \n  patient_name,\n  service_type,\n  location,\n  appointment_time,\n  message,\n  submitted_at\nFROM \n  appointment_bookings\n\nORDER BY \n  appointment_time DESC;\n",
+      "dirPath": "/queries"
+    },
+    "/queries/select_patient_history_admin.transformer.js": {
+      "path": "/queries/select_patient_history_admin.transformer.js",
+      "contents": "return data",
+      "dirPath": "/queries"
+    },
+    "/queries/chat3_query1.query.query": {
+      "path": "/queries/chat3_query1.query.query",
+      "contents": "",
+      "dirPath": "/queries"
+    },
+    "/queries/chat3_query1.transformer.js": {
+      "path": "/queries/chat3_query1.transformer.js",
+      "contents": "return data",
+      "dirPath": "/queries"
+    },
+    "/": {
+      "path": "/",
+      "isDirectory": true
+    }
+  }
+}
