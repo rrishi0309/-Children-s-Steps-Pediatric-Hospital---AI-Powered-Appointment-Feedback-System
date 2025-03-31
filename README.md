@@ -136,8 +136,8 @@ By combining **Retool’s structure** with **LLM reasoning**, this project creat
 ## 📫 Contact
 
 - Creator: **Rishi Ramesh**  
-- Email: [rishi@example.com](mailto:rishi@example.com)  
-- LinkedIn: [linkedin.com/in/rishiramesh](https://linkedin.com/in/rishiramesh)
+- Email: [r.rishi0309@gmail.com](mailto:r.rishi0309@gmail.com)  
+- LinkedIn: [https://www.linkedin.com/in/rishi0309/](https://www.linkedin.com/in/rishi0309/)
 
 ---
 
