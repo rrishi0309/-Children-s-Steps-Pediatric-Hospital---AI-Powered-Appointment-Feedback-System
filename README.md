@@ -143,7 +143,7 @@ By combining **Retool’s structure** with **LLM reasoning**, this project creat
 
 ## ⭐ Acknowledgements
 
-Built for the **2025 GenAI Hackathon** at the University of Utah  
+Built for the **2025 GenAI Hackathon** at the University of Utah . Silver Award for the project.
 Powered by Retool, PostgreSQL, OpenAI, and agentic prompt engineering.
 
 ---
