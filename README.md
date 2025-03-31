@@ -1,0 +1,2 @@
+# -Children-s-Steps-Pediatric-Hospital---AI-Powered-Appointment-Feedback-System
+This project showcases how to combine Retool, LLM-powered assistants, and structured databases to build an intelligent, agentic healthcare assistant. The AI system dynamically interacts with users, interprets their intent, and autonomously triggers database operations—bridging the gap between conversational AI and real-world action.
