@@ -2,7 +2,7 @@
 
 Welcome to the official repository for the **Children’s Steps Pediatric Hospital AI Assistant**, a project built by **Rishi Ramesh** for the 2025 GenAI Hackathon at the University of Utah.
 
-This project showcases how to combine **Retool**, **LLM-powered assistants**, and **structured databases** to build an **intelligent, agentic healthcare assistant**. The AI system dynamically interacts with users, interprets their intent, and autonomously triggers database operations—bridging the gap between conversational AI and real-world action.
+This project showcases how to combine **Retool**, **LLM-powered assistants**, and **structured databases** to build an **intelligent, agentic healthcare assistant**. The AI system dynamically interacts with users, interprets their intent, and autonomously triggers database operations, bridging the gap between conversational AI and real-world action.
 
 ---
 
@@ -13,10 +13,11 @@ This system simulates a modern pediatric hospital experience, complete with:
 - Patient appointment booking through AI-driven dialogue
 - Role-based dashboards for patients and administrators
 - Feedback analytics and service insight tools
+- Secure patient portal with login and appointment history
 
-It is grounded in **Agentic AI** principles—designed to perceive, reason, and act. Ken AI behaves like a real assistant: asking follow-up questions, confirming data, and executing tasks once all info is verified.
+It is grounded in **Agentic AI** principles, designed to perceive, reason, and act. Ken AI behaves like a real assistant: asking follow-up questions, confirming data, and executing tasks once all info is verified.
 
-> ✅ **Agentic AI at Work**: This assistant doesn’t just reply—it makes decisions, populates forms, executes SQL queries, and adapts its responses based on context. It’s more than a chatbot.
+> ✅ **Agentic AI at Work**: This assistant doesn’t just reply, it makes decisions, populates forms, executes SQL queries, and adapts its responses based on context. It’s more than a chatbot.
 
 ---
 
@@ -41,6 +42,9 @@ It is grounded in **Agentic AI** principles—designed to perceive, reason, and 
 
 - **Fully Integrated with PostgreSQL**  
   Appointments and feedback are stored in structured DB tables. Admins can view, filter, and analyze this data in real-time.
+
+- **Secure Login and Appointment History**  
+  Patients can log in to view their upcoming and past appointments securely from the portal.
 
 ---
 
@@ -81,18 +85,13 @@ If the user responds with "Yes", a script runs to:
 ## 📸 Screenshots
 
 <img src="https://github.com/user-attachments/assets/667221b2-142a-4ade-927f-513d138e69e7" width="500"/> <br>
-
 <img src="https://github.com/user-attachments/assets/f48725da-7936-42b3-b2b1-635699f3772d" width="500"/> <br>
-
 <img src="https://github.com/user-attachments/assets/56189a88-747a-4a66-8e41-a2286dfc2912" width="500"/> <br>
-
 <img src="https://github.com/user-attachments/assets/9f8e03cf-a800-409f-b0de-9406d86464ac" width="500"/> <br>
-
 <img src="https://github.com/user-attachments/assets/73cdfee2-8df4-4371-ac42-235c7328ea95" width="500"/> <br>
-
-<img src="https://github.com/user-attachments/assets/118adcba-e280-4928-a7e5-279143ed54d6"> <br>
-
-<img src="https://github.com/user-attachments/assets/fad39e46-9240-4ee9-a26c-fba1152ef3e1"> <br>
+<img src="https://github.com/user-attachments/assets/118adcba-e280-4928-a7e5-279143ed54d6" width="500"/> <br>
+<img src="https://github.com/user-attachments/assets/fad39e46-9240-4ee9-a26c-fba1152ef3e1" width="500"/> <br>
+<img src="/mnt/data/image.png" width="500"/> <br>
 
 ---
 
@@ -119,10 +118,9 @@ By combining **Retool’s structure** with **LLM reasoning**, this project creat
 ## 📁 Project Structure
 
 ```
-├── /retool-export/       # Retool JSON config
-├── /screenshots/         # UI and chat screenshots
-├── /video/               # Demo video (optional)
-└── README.md             # This file
+🔜 /retool-export/       # Retool JSON config
+🔜 /screenshots/         # UI and chat screenshots
+🔝 README.md             # This file
 ```
 
 ---
@@ -139,6 +137,17 @@ By combining **Retool’s structure** with **LLM reasoning**, this project creat
 
 ---
 
+## 👥 Team + Dev Workflow
+
+This project was built by **Neural Nexus** in under 6 hours. We followed a lightweight agile development approach:
+
+- 🗂️ Full backlog and real-time sprint grooming
+- ✅ Rapid prototyping using Retool
+- 🧪 Test-driven assistant prompt tuning
+- ✨ Content and UI support using **Microsoft Copilot** and **Perplexity** for speed and clarity
+
+---
+
 ## 📨 Contact
 
 - Creator: **Rishi Ramesh**  
@@ -149,8 +158,8 @@ By combining **Retool’s structure** with **LLM reasoning**, this project creat
 
 ## ⭐ Acknowledgements
 
-Built for the **2025 GenAI Hackathon** at the University of Utah . Silver Award for the project.
-Powered by Retool, PostgreSQL, OpenAI, and agentic prompt engineering.
+Built for the **2025 GenAI Hackathon** at the University of Utah. Silver Award for the project. 
+Powered by Retool, PostgreSQL, OpenAI, agentic prompt engineering, and enhanced with content assistance from Microsoft Copilot and Perplexity.
 
 ---
 
