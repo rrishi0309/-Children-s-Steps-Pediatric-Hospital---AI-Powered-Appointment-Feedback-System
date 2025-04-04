@@ -6,7 +6,7 @@ This project showcases how to combine **Retool**, **LLM-powered assistants**, an
 
 ---
 
-## 🎯 Overview
+## 🌟 Overview
 
 This system simulates a modern pediatric hospital experience, complete with:
 - A public-facing website with AI assistant support
@@ -80,29 +80,25 @@ If the user responds with "Yes", a script runs to:
 
 ## 📸 Screenshots
 
-![image](https://github.com/user-attachments/assets/667221b2-142a-4ade-927f-513d138e69e7)
+<img src="https://github.com/user-attachments/assets/667221b2-142a-4ade-927f-513d138e69e7" width="500"/>
 
-![image](https://github.com/user-attachments/assets/f48725da-7936-42b3-b2b1-635699f3772d)
+<img src="https://github.com/user-attachments/assets/f48725da-7936-42b3-b2b1-635699f3772d" width="500"/>
 
-![image](https://github.com/user-attachments/assets/56189a88-747a-4a66-8e41-a2286dfc2912)
+<img src="https://github.com/user-attachments/assets/56189a88-747a-4a66-8e41-a2286dfc2912" width="500"/>
 
-![image](https://github.com/user-attachments/assets/9f8e03cf-a800-409f-b0de-9406d86464ac)
+<img src="https://github.com/user-attachments/assets/9f8e03cf-a800-409f-b0de-9406d86464ac" width="500"/>
 
-![image](https://github.com/user-attachments/assets/73cdfee2-8df4-4371-ac42-235c7328ea95)
+<img src="https://github.com/user-attachments/assets/73cdfee2-8df4-4371-ac42-235c7328ea95" width="500"/>
 
-![image](https://github.com/user-attachments/assets/118adcba-e280-4928-a7e5-279143ed54d6)
+<img src="https://github.com/user-attachments/assets/118adcba-e280-4928-a7e5-279143ed54d6" width="500"/>
 
-![image](https://github.com/user-attachments/assets/fad39e46-9240-4ee9-a26c-fba1152ef3e1)
+<img src="https://github.com/user-attachments/assets/fad39e46-9240-4ee9-a26c-fba1152ef3e1" width="500"/>
 
 ---
 
-## 🎬 Demo Video
-
-
+## 🎮 Demo Video
 
 https://github.com/user-attachments/assets/3cd22a7e-babd-4553-a238-bce6ecd3a8b6
-
-
 
 ---
 
@@ -126,7 +122,7 @@ By combining **Retool’s structure** with **LLM reasoning**, this project creat
 ├── /retool-export/       # Retool JSON config
 ├── /screenshots/         # UI and chat screenshots
 ├── /video/               # Demo video (optional)
-├── README.md             # This file
+└── README.md             # This file
 ```
 
 ---
@@ -143,7 +139,7 @@ By combining **Retool’s structure** with **LLM reasoning**, this project creat
 
 ---
 
-## 📫 Contact
+## 📨 Contact
 
 - Creator: **Rishi Ramesh**  
 - Email: [r.rishi0309@gmail.com](mailto:r.rishi0309@gmail.com)  
@@ -159,3 +155,4 @@ Powered by Retool, PostgreSQL, OpenAI, and agentic prompt engineering.
 ---
 
 Feel free to fork, reuse, or reach out to discuss this project or future AI use cases in healthcare, education, or public service. Let's build the next generation of intelligent systems together.
+
