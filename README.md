@@ -1,4 +1,4 @@
-# 🏥 Children's Steps Pediatric Hospital - AI-Powered Appointment & Feedback System
+# 🏥 Ken AI - AI-Powered Appointment & Feedback System
 
 Welcome to the official repository for the **Children’s Steps Pediatric Hospital AI Assistant**, a project built by **Rishi Ramesh** for the 2025 GenAI Hackathon at the University of Utah.
 
