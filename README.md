@@ -91,7 +91,6 @@ If the user responds with "Yes", a script runs to:
 <img src="https://github.com/user-attachments/assets/73cdfee2-8df4-4371-ac42-235c7328ea95" width="500"/> <br>
 <img src="https://github.com/user-attachments/assets/118adcba-e280-4928-a7e5-279143ed54d6" width="500"/> <br>
 <img src="https://github.com/user-attachments/assets/fad39e46-9240-4ee9-a26c-fba1152ef3e1" width="500"/> <br>
-<img src="/mnt/data/image.png" width="500"/> <br>
 
 ---
 
