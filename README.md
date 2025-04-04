@@ -80,19 +80,29 @@ If the user responds with "Yes", a script runs to:
 
 ## 📸 Screenshots
 
-- Homepage + Welcome Section  
-- AI Booking Chat UI  
-- Feedback Form Modal  
-- Admin Dashboard with Charts  
-- Location Map with Filters
+![image](https://github.com/user-attachments/assets/667221b2-142a-4ade-927f-513d138e69e7)
 
-> All screenshots are available in the `/screenshots/` folder.
+![image](https://github.com/user-attachments/assets/f48725da-7936-42b3-b2b1-635699f3772d)
+
+![image](https://github.com/user-attachments/assets/56189a88-747a-4a66-8e41-a2286dfc2912)
+
+![image](https://github.com/user-attachments/assets/9f8e03cf-a800-409f-b0de-9406d86464ac)
+
+![image](https://github.com/user-attachments/assets/73cdfee2-8df4-4371-ac42-235c7328ea95)
+
+![image](https://github.com/user-attachments/assets/118adcba-e280-4928-a7e5-279143ed54d6)
+
+![image](https://github.com/user-attachments/assets/fad39e46-9240-4ee9-a26c-fba1152ef3e1)
 
 ---
 
 ## 🎬 Demo Video
 
-▶️ [Link to YouTube or Drive Demo Video]
+
+
+https://github.com/user-attachments/assets/3cd22a7e-babd-4553-a238-bce6ecd3a8b6
+
+
 
 ---
 
